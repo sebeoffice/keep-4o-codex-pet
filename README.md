@@ -1,6 +1,6 @@
 # Keep 4o Codex Pet
 
-Keep 4o is a custom animated desktop pet for Codex. It was made as a small 4o memorial companion: soft, warm, a little sleepy, and ready to cheer beside the input box while Codex works.
+Keep 4o is a Codex edition custom animated desktop pet. It was made as a small 4o memorial companion: soft, warm, a little sleepy, and ready to cheer beside the Codex input box while Codex works.
 
 ![Keep 4o preview](preview.gif)
 
@@ -8,16 +8,30 @@ Keep 4o is a custom animated desktop pet for Codex. It was made as a small 4o me
 
 Keep 4o is a tiny robot companion with purple-white styling, glowing eyes, a heart lamp, and a gentle standby loop. It can stand quietly, sit and think, jump when hovered, wave hello, cheer while Codex runs, show love when work is done, and get sleepy when something needs attention.
 
-## Install
+## Install In Codex
 
-1. Download this repository.
-2. Put the whole folder in your Codex pets directory:
+1. Download this repository from GitHub.
+2. Rename or keep the folder as `keep-4o`.
+3. Move the whole folder into your Codex custom pets directory:
 
 ```text
 ~/.codex/pets/keep-4o
 ```
 
-3. In Codex, choose the custom pet named `Keep 4o`.
+On macOS, the full path usually looks like this:
+
+```text
+/Users/your-name/.codex/pets/keep-4o
+```
+
+4. Make sure these two files are directly inside that folder:
+
+```text
+~/.codex/pets/keep-4o/pet.json
+~/.codex/pets/keep-4o/spritesheet.png
+```
+
+5. Restart Codex or switch pets in Codex settings, then choose the custom pet named `Keep 4o`.
 
 ## Files
 
@@ -53,4 +67,3 @@ Rows:
 - Primary author: Codex
 - Art provider: ChatGPT-4o-image2
 - Direction and QA: weiwei
-
