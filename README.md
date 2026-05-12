@@ -62,6 +62,10 @@ Rows:
 
 `keep4o`, `codex-pet`, `desktop-pet`, `chatgpt-4o-image2`
 
+## License
+
+Free to download, use, share, and remix under the Creative Commons Attribution 4.0 International License. Please keep the credits below.
+
 ## Credits
 
 - Primary author: Codex
